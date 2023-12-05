@@ -34,7 +34,7 @@ public class Lista {
 			double num1 = lista1[i];
 			double num2 = lista2[i];
 			double num3 = lista3[i];
-			
+						
 			int total = 5+numDecimales;
 			String formato = "%"+total+"."+numDecimales+"f";
 			System.out.printf(formato, num1);

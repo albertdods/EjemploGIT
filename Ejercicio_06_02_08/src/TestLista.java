@@ -10,14 +10,14 @@ public class TestLista {
 		int numSeparacion = in.nextInt();
 		System.out.println("Longitud del array entre 5 y 100");
 		int lonArray = in.nextInt();
+		
 		//crear un nuevo objeto
 		Lista nuevaLista= new Lista(numDecimales, numSeparacion, lonArray);
 		//añadir numeros a las listas
 		nuevaLista.rellenarListas();
 		//imprimir listas
 		nuevaLista.imprimirListas();
-		
-
+		in.close();
+	
 	}
-
 }
